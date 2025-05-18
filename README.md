@@ -62,10 +62,8 @@ java Main
 ```
 src/
 ├── Main.java                 # Entry point
-├── BankSystem.java           # Core banking logic
-├── DatabaseConnection.java   # MySQL connection handler
-├── Account.java              # Account model
-└── Transaction.java          # Transaction model
+├── BankController.java       # Core banking 
+├── DBUtils.java   # MySQL connection handler
 ```
 
 ## 💻 Usage Examples
@@ -74,8 +72,10 @@ src/
 ```
 === BANK MANAGEMENT SYSTEM ===
 1. Create Account
-2. Login
-3. Exit
+2. Deposit
+3. Withdraw
+4. My Info
+5. Exit
 > 1
 
 Enter your name: John Doe
